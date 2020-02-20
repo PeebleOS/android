@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="PeebleOS"
+          fetch="https://github.com/PeebleOS"
+          revision="ten" />
+
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="PeebleOS" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="PeebleOS" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="PeebleOS" />
+  <!-- TODO Rename branch ... -->
+
+</manifest>
